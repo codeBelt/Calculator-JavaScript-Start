@@ -1,0 +1,332 @@
+/* ---------------------------------------------------------------------
+RESET CSS (thanks Eric Meyer)
+------------------------------------------------------------------------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Always show a vertical scrollbar, even when there is no scrolling */
+html {
+    overflow-y: scroll;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* ---------------------------------------------------------------------
+ HTML5 Element Reset
+------------------------------------------------------------------------ */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+    display: block;
+}
+
+audio, canvas, video, progress, picture {
+    display: inline-block;
+}
+
+template {
+    display: none;
+}
+
+/* ---------------------------------------------------------------------
+ Form Reset Styles
+------------------------------------------------------------------------ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+}
+
+input[type="search"] {
+    -webkit-appearance: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+
+::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* ---------------------------------------------------------------------
+ Base Styles
+------------------------------------------------------------------------ */
+#FORM_1 {
+    color: rgb(51, 51, 51);
+    height: 148px;
+    text-align: left;
+    width: 156px;
+    perspective-origin: 477px 74px;
+    transform-origin: 477px 74px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 12px/18px Verdana;
+    margin: 18px auto;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#FORM_1*/
+
+#TABLE_2 {
+    color: rgb(51, 51, 51);
+    height: 144px;
+    text-align: left;
+    width: 154px;
+    perspective-origin: 79px 74px;
+    transform-origin: 79px 74px;
+    border: 2px solid rgb(0, 0, 0);
+    border-spacing: 0px 0px;
+    font: normal normal normal normal 12px/18px Verdana;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#TABLE_2*/
+
+#TBODY_3 {
+    color: rgb(51, 51, 51);
+    height: 144px;
+    text-align: left;
+    width: 154px;
+    perspective-origin: 77px 72px;
+    transform-origin: 77px 72px;
+    font: normal normal normal normal 12px/18px Verdana;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#TBODY_3*/
+
+#TR_4 {
+    color: rgb(51, 51, 51);
+    height: 144px;
+    text-align: left;
+    vertical-align: middle;
+    width: 154px;
+    perspective-origin: 77px 72px;
+    transform-origin: 77px 72px;
+    font: normal normal normal normal 12px/18px Verdana;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#TR_4*/
+
+#TD_5 {
+    color: rgb(51, 51, 51);
+    height: 134px;
+    text-align: left;
+    vertical-align: top;
+    width: 144px;
+    perspective-origin: 77px 72px;
+    transform-origin: 77px 72px;
+    border: 1px solid rgb(0, 0, 0);
+    font: normal normal normal normal 12px/18px Verdana;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 4px;
+}/*#TD_5*/
+
+#TABLE_6 {
+    color: rgb(51, 51, 51);
+    height: 134px;
+    text-align: left;
+    width: 144px;
+    perspective-origin: 72px 67px;
+    transform-origin: 72px 67px;
+    border-spacing: 0px 0px;
+    font: normal normal normal normal 12px/18px Verdana;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#TABLE_6*/
+
+#TBODY_7 {
+    color: rgb(51, 51, 51);
+    height: 134px;
+    text-align: left;
+    width: 144px;
+    perspective-origin: 72px 67px;
+    transform-origin: 72px 67px;
+    border: 0px none rgb(128, 128, 128);
+    font: normal normal normal normal 12px/18px Verdana;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#TBODY_7*/
+
+#TR_8 {
+    color: rgb(51, 51, 51);
+    height: 24px;
+    text-align: left;
+    vertical-align: middle;
+    width: 144px;
+    perspective-origin: 72px 12px;
+    transform-origin: 72px 12px;
+    border: 0px none rgb(128, 128, 128);
+    font: normal normal normal normal 12px/18px Verdana;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#TR_8*/
+
+#TD_9 {
+    color: rgb(51, 51, 51);
+    height: 20px;
+    text-align: left;
+    vertical-align: top;
+    width: 140px;
+    perspective-origin: 72px 12px;
+    transform-origin: 72px 12px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 12px/18px Verdana;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 2px;
+}/*#TD_9*/
+
+#INPUT_10 {
+    box-sizing: content-box;
+    height: 14px;
+    text-align: right;
+    vertical-align: middle;
+    width: 125px;
+    perspective-origin: 65.5px 10px;
+    transform-origin: 65.5px 10px;
+    font: normal normal normal normal 11.8800001144409px/normal sans-serif;
+}/*#INPUT_10*/
+
+#TR_11, #TR_18, #TR_27, #TR_36, #TR_45 {
+    color: rgb(51, 51, 51);
+    height: 22px;
+    text-align: left;
+    vertical-align: middle;
+    width: 144px;
+    perspective-origin: 72px 11px;
+    transform-origin: 72px 11px;
+    border: 0px none rgb(128, 128, 128);
+    font: normal normal normal normal 12px/18px Verdana;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#TR_11, #TR_18, #TR_27, #TR_36, #TR_45*/
+
+#TD_12, #TD_14, #TD_16, #TD_19, #TD_21, #TD_23, #TD_25, #TD_28, #TD_30, #TD_32, #TD_34, #TD_37, #TD_39, #TD_41, #TD_43, #TD_46, #TD_49, #TD_51 {
+    color: rgb(51, 51, 51);
+    height: 18px;
+    text-align: left;
+    vertical-align: top;
+    width: 32px;
+    perspective-origin: 18px 11px;
+    transform-origin: 18px 11px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 12px/18px Verdana;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 2px;
+}/*#TD_12, #TD_14, #TD_16, #TD_19, #TD_21, #TD_23, #TD_25, #TD_28, #TD_30, #TD_32, #TD_34, #TD_37, #TD_39, #TD_41, #TD_43, #TD_46, #TD_49, #TD_51*/
+
+#INPUT_13, #INPUT_17, #INPUT_22, #INPUT_26, #INPUT_31, #INPUT_35, #INPUT_40, #INPUT_44, #INPUT_48, #INPUT_52 {
+    cursor: pointer;
+    height: 18px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: pre;
+    width: 32px;
+    align-items: flex-start;
+    perspective-origin: 16px 9px;
+    transform-origin: 16px 9px;
+    background: rgb(192, 192, 192) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    padding: 2px 8px 3px;
+}/*#INPUT_13, #INPUT_17, #INPUT_22, #INPUT_26, #INPUT_31, #INPUT_35, #INPUT_40, #INPUT_44, #INPUT_48, #INPUT_52*/
+
+#TD_15, #TD_47 {
+    color: rgb(51, 51, 51);
+    height: 18px;
+    text-align: left;
+    vertical-align: top;
+    width: 32px;
+    perspective-origin: 18px 11px;
+    transform-origin: 18px 11px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal normal normal 12px/18px Verdana;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 2px;
+}/*#TD_15, #TD_47*/
+
+#INPUT_20, #INPUT_24, #INPUT_33, #INPUT_42 {
+    cursor: pointer;
+    height: 18px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: pre;
+    width: 32px;
+    align-items: flex-start;
+    perspective-origin: 16px 9px;
+    transform-origin: 16px 9px;
+    background: rgb(192, 192, 192) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    padding: 2px 8px 3px;
+}/*#INPUT_20, #INPUT_24, #INPUT_33, #INPUT_42*/
+
+#INPUT_29, #INPUT_38 {
+    cursor: pointer;
+    height: 18px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: pre;
+    width: 32px;
+    align-items: flex-start;
+    perspective-origin: 16px 9px;
+    transform-origin: 16px 9px;
+    background: rgb(192, 192, 192) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    padding: 2px 8px 3px;
+}/*#INPUT_29, #INPUT_38*/
+
+#INPUT_50 {
+    cursor: pointer;
+    height: 18px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: pre;
+    width: 32px;
+    align-items: flex-start;
+    perspective-origin: 16px 9px;
+    transform-origin: 16px 9px;
+    background: rgb(192, 192, 192) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    padding: 2px 8px 3px;
+}/*#INPUT_50*/
+
